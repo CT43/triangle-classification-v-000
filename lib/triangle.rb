@@ -22,7 +22,7 @@ class Triangle
         @type = :scalene
       elsif side_1 = side_2 && side_2 = side_3
         @type = :equilateral
-      else
+      elsif side_1 = side_2 || side_2 = side_3
         @type = :isosceles
       end
     end
