@@ -20,9 +20,9 @@ class Triangle
     else
       if side_1 != side_2 && side_2 != side_3
         @type = :scalene
-      elsif side_1 = side_2 || side_2 = side_3
+      elsif side_1 == side_2 || side_2 == side_3
         @type = :isosceles
-      elsif side_1 = side_2 && side_2 = side_3
+      elsif 
         @type = :equilateral
       end
     end
