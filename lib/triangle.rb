@@ -1,8 +1,3 @@
-class TriangleError < StandardError
-  def message
-    'This "triangle" is not a triangle!!! Check the side lengths and try again'
-end
-
 class Triangle
   attr_reader :side_1, :side_2, :side_3, :type
 
@@ -36,6 +31,9 @@ class Triangle
 
 
 
-
+  class TriangleError < StandardError
+    def message
+      'This "triangle" is not a triangle!!! Check the side lengths and try again'
+  end
 
 end
