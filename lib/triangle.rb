@@ -25,11 +25,11 @@ class Triangle
       else
         @type = isosceles
       end
-    end 
+    end
     end
   end
 
-  def self.all
+  def all
     @@all
   end
 
