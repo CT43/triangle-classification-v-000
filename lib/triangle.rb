@@ -18,9 +18,9 @@ class Triangle
         puts error.message
       end
     else
-      if side_1 != side_2 != side_3
+      if side_1 != side_2 && side_2 != side_3
         @type = scalene
-      elsif side_1 = side_2 = side_3
+      elsif side_1 = side_2 && side_2 = side_3
         @type = equilateral
       else
         @type = isosceles
