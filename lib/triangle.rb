@@ -18,7 +18,7 @@ class Triangle
         puts error.message
       end
     else
-      if side_1 != side_2 && side_2 != side_3
+      if side_1 != side_2 && side_2 != side_3 && side_3 != side_1
         @type = :scalene
       elsif side_1 == side_2 && side_2 == side_3
         @type = :equilateral
