@@ -36,9 +36,6 @@ class Triangle
 
 
 
-  class TriangleError < StandardError
-    def message
-      'This "triangle" is not a triangle!!! Check the side lengths and try again'
-  end
+
 
 end
