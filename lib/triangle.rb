@@ -25,6 +25,7 @@ class Triangle
       else
         @type = isosceles
       end
+    end 
     end
   end
 
