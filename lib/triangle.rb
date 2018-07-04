@@ -26,14 +26,13 @@ class Triangle
         @type = :isosceles
       end
     end
-
   end
 
 
 
   class TriangleError < StandardError
     def message
-      'This "triangle" is not a triangle!!! Check the side lengths and try again'
+      "This triangle is not a triangle!!! Check the side lengths and try again"
     end
   end
 
