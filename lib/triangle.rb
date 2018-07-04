@@ -19,11 +19,11 @@ class Triangle
       end
     else
       if side_1 != side_2 && side_2 != side_3
-        @type = scalene
+        @type = 'scalene'
       elsif side_1 = side_2 && side_2 = side_3
-        @type = equilateral
+        @type = 'equilateral'
       else
-        @type = isosceles
+        @type = 'isosceles'
       end
     end
     end
