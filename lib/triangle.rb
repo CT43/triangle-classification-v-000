@@ -10,8 +10,17 @@ class Triangle
     self.class.all << self
   end
 
+  def kind 
+    
+  end 
+
   def self.all
     @@all
+  end 
+
+  class TriangleError < StandardError 
+    def message 
+      'This "triangle" is not a triangle!!! Check the side lengths and try again'
   end 
 
 end
